@@ -69,10 +69,8 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-/*    color: #111;
-*/    
-  color: #cdcdcd;
-  text-decoration: underline; }
+    color: #111;
+    text-decoration: underline; }
 
 /**
  * Blockquotes
@@ -154,7 +152,7 @@ pre {
   position: relative; }
 
 .site-title {
-  font-size: 26px;
+  font-size: 33px;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
