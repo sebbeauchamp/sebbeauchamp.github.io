@@ -1,0 +1,51 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+body{
+	font-family: 'Avenir Next';
+	padding: 0px;
+	background-color: #C6C7CC;
+}
+
+.jumbotron{
+	margin: 0px;
+	padding: 150px 0px;
+	background-color: inherit;
+	background: url('../img/yellow-stripe.png') no-repeat;
+	background-size: cover cover;
+}
+
+.jumbotron h1{
+	font-size: 130px;
+	line-height: 125px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+
+}
+
+.jumbotron p{
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 400;
+	color: #000;
+}
+.coming-soon{
+	padding: 100px 0px;
+	background:#fff;
+}
+
+
+.white-bg{
+		background:#fff;
+}
+
+
+
+
+
