@@ -9,15 +9,15 @@
 body{
 	font-family: 'Avenir Next';
 	padding: 0px;
-	background-color: #C6C7CC;
+	background: #E8E8E8 url('../img/yellowpart.png') no-repeat top left;
+	background-size: cover;
 }
 
 .jumbotron{
 	margin: 0px;
 	padding: 150px 0px;
-	background-color: inherit;
-	background: url('../img/yellow-stripe.png') no-repeat;
-	background-size: cover cover;
+	background:inherit;
+
 }
 
 .jumbotron h1{
@@ -44,8 +44,3 @@ body{
 .white-bg{
 		background:#fff;
 }
-
-
-
-
-
