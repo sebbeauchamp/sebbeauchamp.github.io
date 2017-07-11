@@ -114,7 +114,9 @@ a.linkedin{
 	color: #0077B5;
 }
 
-
+a.mail{
+	color: #50E3C2;
+}
 
 .jumbotron a:hover{
 	text-decoration: line-through;
