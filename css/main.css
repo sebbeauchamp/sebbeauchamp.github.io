@@ -76,22 +76,21 @@ body{
 	line-height: 20px;
 	font-family: 'HKGrotesk-Bold';
 	color: #262624;
-	margin-bottom: 3em;
+	position: fixed;
+	width:100%;
 }
 
 .jumbotron h1{
 	font-family: 'HKGrotesk-Bold';
 	font-size: 8em;
 	color: #262624;
-	margin-bottom: 1em;
-	clear: both;
+	margin: 1em 0px;
 }
 
 .jumbotron p{
 	font-size: 5em;
 	line-height: 1.35em;
 	color: #8C8C8C;
-	text-indent: 1.5em;
 	margin-bottom: 1em;
 }
 
