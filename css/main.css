@@ -65,34 +65,45 @@ body{
 
 }
 
-.logo{
-	width: 76px;
-	float:left;
-	margin-right: 20px;
-}
-
-.name{
+.identity{
 	font-size: 20px;
 	line-height: 20px;
 	font-family: 'HKGrotesk-Bold';
 	color: #262624;
-	position: fixed;
 	width:100%;
+}
+
+.logo{
+	width: 76px;
+	height:38px;
+	float:left;
+	position: fixed;
+}
+.name{
+	padding-left: 96px;
 }
 
 .jumbotron h1{
 	font-family: 'HKGrotesk-Bold';
 	font-size: 8em;
 	color: #262624;
-	margin: 1.25em 0px 0.5em;
+	margin: 0.5em 0px 0.5em 96px;
 }
+
 
 .jumbotron p{
 	font-size: 4.5em;
 	line-height: 1.5em;
 	color: #8C8C8C;
 	margin-bottom: 1em;
+	margin-left:96px;
 }
+
+@media (max-width: 767px) {
+	.jumbotron h1, .jumbotron p{
+		margin-left: 0px;
+	}
+ }
 
 .jumbotron a{
 text-decoration: none;
